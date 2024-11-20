@@ -22,6 +22,7 @@ def main():
     process(options.tempini, options.psdlini, options.verbose, options.debug)
 
 def process(tempini, psdlini, verbose, debug):
+    #  trying to add output with current configuration
     staname = input("\r\n0 - восстановить все группы\r\nДля какой группы будем менять конфигурацию (0,1,2,3)?:")
     loop = 0
     while True:
