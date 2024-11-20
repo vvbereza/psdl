@@ -3,6 +3,7 @@ import os
 import shutil
 import re
 from optparse import OptionParser
+import tkinter as tk
 
 def main():
     usage = "usage: %prog -t 'PSDL template ini file' -p 'PSDL ini file'"
